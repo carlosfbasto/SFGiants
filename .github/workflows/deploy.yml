@@ -21,8 +21,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Angular project
-        run: npm run build -- --output-path=dist/giants-sf --base-href="/SFGiants/"
+      - name: Build Angular project with correct base-href
+        run: |
+          npm run build -- --configuration production --base-href "/SFGiants/"
+          cp dist/giants-sf/index.html dist/giants-sf/404.html
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist/giants-sf
+
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
