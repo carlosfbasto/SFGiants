@@ -1,0 +1,38 @@
+<section>
+    <h2>News section</h2>
+    <div class="news">
+        <div class="news-magazine">
+            <div class="main-news" *ngIf="selectedNews; else noNews">
+                <img [src]="selectedNews.img" [alt]="selectedNews.title">
+                <div class="news-header">
+                    <h5>{{ selectedNews.title }}</h5>
+                    <span class="news-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        {{ selectedNews.date | date:'dd MMM yyyy' }}
+                    </span>
+                </div>
+                <p>{{selectedNews.news}}</p>
+            </div>
+            <ng-template #noNews>
+                <div class="main-news">
+                    <img src="https://i0.wp.com/thehappening.com/wp-content/uploads/2020/08/baseball-e1596652734479.jpg?fit=1480%2C754&ssl=1" alt="">
+                </div>
+            </ng-template>
+            <div class="side-news">
+                <p>Buscar por fecha:</p>
+                <input type="date" (change)="onDateChange($event)">
+                <article *ngFor="let item of filteredData; let i = index" (click)="selectNews(item)" [class.active]="selectedNews === item">
+                    <img [src]="item.img" [alt]="item.title">
+                    <div>
+                        <h6>{{item.title}}</h6>
+                    <p>{{item.date | date:'dd MMM yyyy' }}</p>
+                    </div>
+                </article>
+                <!-- Mensaje cuando no hay resultados -->
+                <p *ngIf="filteredData.length === 0" class="no-results">
+                    No hay noticias para la fecha seleccionada.
+                </p>
+            </div>
+        </div>   
+    </div>
+</section>

@@ -1,0 +1,146 @@
+*
+    margin: 0
+    padding: 0
+
+h2
+    padding-top: 50px
+
+.container-article
+    display: flex
+    article
+        width: calc(100% - 400px)
+        padding: 20px
+        box-sizing: border-box
+        text-align: justify
+        .news
+            font-family: "Montserrat", sans-serif
+            font-weight:bolder
+            margin: 30px 15px 15px 30px
+            padding: 20px
+            box-sizing: border-box
+            background-color: white
+            video
+                width: 100%
+                border-radius: 10px
+                margin-bottom: 10px
+                object-fit: cover
+            h3
+                font-size: 19px
+                padding: 10px 20px
+                text-shadow: 1px 1px 2px rgb(216, 216, 216)
+            p
+                font-size: 15px
+                padding: 10px 20px
+                color: #616060
+                text-shadow: none
+            small
+                color: #000
+                margin-left: 5px
+            hr
+                margin: 20px 0px
+
+
+aside
+    width: 400px
+    float: left
+    padding: 20px
+    box-sizing: border-box
+    section
+        background-color: #fff
+        padding: 20px
+        margin: 30px 30px 0px 0px
+        box-sizing: border-box
+        h3
+            font-weight: bold
+            font-size: 19px
+            padding-bottom: 2px
+            text-shadow: 1px 1px 2px rgb(216, 216, 216)
+    .widget 
+        ul
+            padding-left: 20px
+            padding-top: 10px
+            box-sizing: border-box
+        li, a
+            margin-bottom: 10px
+            font-family: "Montserrat", sans-serif
+            font-weight: 500
+            font-size: 15px
+            color: #616060
+            text-align: justify
+            text-decoration: none
+            &:hover > a
+                color: #fa7100
+                text-decoration: underline
+    .widget__results
+        .carousel-container
+            display: flex
+            justify-content: center
+            align-items: center
+            button
+                background: none
+                border: none
+                font-size: 20px
+                cursor: pointer
+                padding: 5px
+                color: #aaa
+            .carousel-date
+                width: 100%
+                text-align: center
+                font-weight: bold
+                font-size: 13px
+        #result 
+            h5
+                padding: 10px 5px 0px 5px
+                box-sizing: border-box
+                text-align: center
+                font-size: 16px
+            .team
+                display: flex
+                justify-content: space-between
+                align-items: center
+                box-sizing: border-box
+                padding: 5px
+                p
+                    text-align: center
+                    font-family: "Montserrat", sans-serif
+                    font-size: 15px
+                    color: #000000
+                    padding: 10px 10px
+                img
+                    width: 30px
+                    height: 30px
+                    object-fit: contain
+            p.template
+                text-align: center
+    .widget__social
+        text-align: center
+        margin-top: 30px
+        margin-bottom: 30px
+        a
+            font-size: 35px
+            margin-right: 10px
+        .widget__social__icon
+            color: #395693
+            &:nth-child(2)
+                color: #1283e5
+            &:nth-child(3)
+                color: #17b118
+            &:nth-child(4)
+                color: #e85f53
+                padding: 0
+
+@media (max-width: 800px)
+
+    .carousel
+        display: none
+
+    .container-article
+        display: block
+        article
+            width: 100%
+
+    aside
+        float: none
+        width: 100%
+        section
+            margin: 0px 15px 15px 30px

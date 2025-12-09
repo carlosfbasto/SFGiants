@@ -1,0 +1,13 @@
+<div class="carousel-container" *ngIf="data.length > 0">
+    <section class="carousel-slide">
+        <img [src]="data[currentIndex].url" alt="Advertising">
+
+        <!-- Contenido encima de la imagen -->
+        <div class="carousel-content">
+            <div class="content-box">
+                <h2>{{ data[currentIndex].title }}</h2>
+                <p>{{ data[currentIndex].description }}</p>
+            </div>
+        </div>
+  </section>
+</div>

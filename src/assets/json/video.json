@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "video": "assets/video/RamosSF.mp4",
+    "tittle": "Ramos puts SF ahead with a home run",
+    "news": "Heliot Ramos hits a solo home run through the LF to give the Giants a 1-0 lead in the top of the 5th inning",
+    "date": "14.05.2025 "
+    },
+    {
+    "id": 2,
+    "video": "assets/video/WilmerSF.mp4",
+    "tittle": "Wilmer Flores drives in with a single",
+    "news":"Wilmer Flores impulsa la primera carrera del juego con un sencillo al jardín izquierdo en la parte alta de la 2da entrada",
+    "date": "14.05.2025" 
+    },
+    {
+    "id": 3,
+    "video": "assets/video/DovalSF.mp4",
+    "tittle": "Doval secures Giants victory",
+    "news":"Camilo Doval gets the save after sealing the Giants 6-3 victory.",
+    "date": "14.05.2025" 
+    }
+]

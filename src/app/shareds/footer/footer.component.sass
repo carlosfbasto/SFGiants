@@ -1,0 +1,84 @@
+footer
+    width: 100%
+    height: auto
+    padding: 15px
+    background-color: #666666
+    color: #d2d2d2
+
+.footer__container
+    max-width: 1200px
+    margin: 0 auto
+    padding-top: 50px
+    .logo
+            font-size: 35px
+            padding-top: 8px
+            &:hover
+                cursor: pointer
+                color: #fff 
+    .footer__links
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-bottom: 20px
+        ul
+            list-style: none
+            padding: 0
+        a 
+            color: #d2d2d2
+            text-decoration: none
+            font-weight: bold
+            font-size: 12px
+            &:hover
+                color: #fff
+    .sponsors
+        text-align: center
+        margin-top: -50px
+        top: -2px
+        h3
+            font-size: 35px
+        .sponsor__logos
+            display: flex
+            flex-direction: column
+            gap: 10px
+            align-items: center
+            .logo__row
+                display: flex
+                justify-content: center
+                gap: 20px
+                flex-wrap: wrap
+                img
+                    width: 100px
+                    height: 100px
+                    object-fit: contain
+                    transition: transform 0.3s ease
+                    &:hover
+                        transform: scale(1.1)
+    .copyright
+        font-family: "Montserrat", sans-serif
+        text-align: center
+        font-weight: 300
+        font-size: 14px
+        padding-top: 10px
+        padding-bottom: 20px
+        margin-bottom: 0
+
+
+@media (max-width: 800px)
+    
+    h3
+        font-size: 25px !important
+        text-align: center
+
+    .footer__links
+        display: block !important
+        text-align: center
+    .sponsors
+        margin-top: 0 !important
+        .sponsor__logos
+            .logo__row
+                img
+                    width: 50px !important
+                    height: 50px !important
+
+    .copyright
+        font-size: 10px !important

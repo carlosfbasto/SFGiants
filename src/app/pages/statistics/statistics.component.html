@@ -1,0 +1,101 @@
+<div class="container-fluid">
+    <h2>statistics table</h2>
+    <div class="statistics">
+        <div class="statistics__buttons">
+            <div class="stats__btn">
+                <a><button class="button__select"
+                    [class.active-btn]="selectedAction === 'batting'"
+                    (click)="changeAction('batting')">Hitting</button></a>
+                <a><button class="button__select"
+                    [class.active-btn]="selectedAction === 'pitching'"
+                    (click)="changeAction('pitching')">Pitching</button></a>
+            </div>
+            <div class="select">
+                <div class="select__posicion">
+                    <select [(ngModel)]="selectedPosition" (ngModelChange)="onPositionChange($event)">
+                        <option value="">All Positions</option>
+                        <option *ngFor="let pos of positions" [value]="pos">{{pos}} </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="statistics__tables">
+            <div id="tabla-bateo" *ngIf="selectedAction === 'batting'">
+                <table id="tablaEstadisticas">
+                    <thead>
+                        <th>Player</th>
+                        <th>G</th>
+                        <th>AB</th>
+                        <th>R</th>
+                        <th>H</th>
+                        <th>2B</th>
+                        <th>3B</th>
+                        <th>HR</th>
+                        <th>RBI</th>
+                        <th>BB</th>
+                        <th>SO</th>
+                        <th>SB</th>
+                        <th>AVG</th>
+                        <th>OBP</th>
+                        <th>SLG</th>
+                        <th>OPS</th>
+                        <th>TB</th>
+                    </thead>
+                    <tr *ngFor="let item of filteredData">
+                        <td>{{item.name}}<span>{{item.position}} </span></td>
+                        <td>{{item.stats.batting?.games}}</td>
+                        <td>{{item.stats.batting?.atBats}}</td>
+                        <td>{{item.stats.batting?.runs}}</td>
+                        <td>{{item.stats.batting?.hits}}</td>
+                        <td>{{item.stats.batting?.doubles}}</td>
+                        <td>{{item.stats.batting?.triples}}</td>
+                        <td>{{item.stats.batting?.homeRuns}}</td>
+                        <td>{{item.stats.batting?.RBIs}}</td>
+                        <td>{{item.stats.batting?.walks}}</td>
+                        <td>{{item.stats.batting?.strikeouts}}</td>
+                        <td>{{item.stats.batting?.stolenBases}}</td>
+                        <td>{{item.stats.batting?.average}}</td>
+                        <td>{{item.stats.batting?.OBP}}</td>
+                        <td>{{item.stats.batting?.SLG}}</td>
+                        <td>{{item.stats.batting?.OPS}}</td>
+                        <td>{{item.stats.batting?.totalBases}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="tabla-pitcheo" *ngIf="selectedAction === 'pitching'">
+                <table id="tablaEstadisticas">
+                    <thead>
+                        <th>Player</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>ERA</th>
+                        <th>G</th>
+                        <th>IP</th>
+                        <th>H</th>
+                        <th>R</th>
+                        <th>ER</th>
+                        <th>HR</th>
+                        <th>BB</th>
+                        <th>SO</th>
+                        <th>WHIP</th>
+                    </thead>
+                    <tr *ngFor="let item of filteredData">
+                        <td>{{item.name}} <span>{{item.position}}</span></td>
+                        <td>{{item.stats.pitching?.wins}}</td>
+                        <td>{{item.stats.pitching?.losses}}</td>
+                        <td>{{item.stats.pitching?.ERA}}</td>
+                        <td>{{item.stats.pitching?.gamesPitched}}</td>
+                        <td>{{item.stats.pitching?.inningsPitched}}</td>
+                        <td>{{item.stats.pitching?.hits}}</td>
+                        <td>{{item.stats.pitching?.runs}}</td>
+                        <td>{{item.stats.pitching?.earnedRuns}}</td>
+                        <td>{{item.stats.pitching?.homeRuns}}</td>
+                        <td>{{item.stats.pitching?.walks}}</td>
+                        <td>{{item.stats.pitching?.strikeouts}}</td>
+                        <td>{{item.stats.pitching?.WHIP}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+$main-color: #ff6600
+$text-color: #333
+    
+.container-fluid
+    h2
+        padding-top: 30px
+.statistics
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+    padding: 30px 0px
+    .statistics__buttons
+        background-color: #fff
+        border-radius: 10px
+        padding: 20px
+        .stats__btn
+            display: flex
+        .select
+            display: flex
+            padding-top: 10px
+            box-sizing: border-box
+            select
+                height: 35px
+                border-radius: 5px
+                padding: 0px 10px
+                border: 2px solid #666666
+                background: #222222
+                color: #fff
+                font-size: 15px
+                &:hover
+                    background: #444444
+    .statistics__tables
+        background-color: #fff
+        border-radius: 10px
+        padding: 10px
+        margin: 15px 0px
+        #tabla-bateo,#tabla-pitcheo
+            width: 100%
+            table
+                width: 100%
+                text-align: center
+                box-sizing: border-box
+                border-collapse: collapse
+                th
+                    background-color: #000
+                    color: #fff
+                    height: 30px 
+                    &:nth-child(1)
+                        text-align: start
+                        padding-left: 10px
+                tr
+                    &:nth-child(odd)
+                        background: #fa57004b
+                td
+                    height: 30px
+                    &:nth-child(1)
+                        text-align: start
+                        padding-left: 10px
+                span
+                    margin-left: 10px
+                    font-size: 12px
+                    color: #666666
+

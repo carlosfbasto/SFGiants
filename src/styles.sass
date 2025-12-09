@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+body
+    background: #f0f1f5
+
+h2
+    text-align: center
+    font-family: "Bebas Neue", sans-serif
+    margin: 0
+
+$main-color: #0144dd
+$text-color: #90a3d1
+
+.button__select
+    margin: 5px
+    padding: 5px 15px 5px 15px
+    border: 1px solid $text-color
+    border-radius: 5px
+    background-color: transparent
+    font-size: 16px
+    font-weight: 500
+    color: $text-color
+    cursor: pointer
+    transition: all 0.3s ease
+    &:hover
+        color: darken($main-color, 10% )
+    &.active-btn
+        color: white
+        background-color: $main-color

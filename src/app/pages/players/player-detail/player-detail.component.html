@@ -1,0 +1,101 @@
+<div *ngIf="player ; else notFound" class="player">
+    <div class="player-container"
+        [ngStyle]="{ 
+        'background-image': 'linear-gradient(to top, rgba(7, 7, 7, 7), transparent, transparent), url(' + playerBackground + ')',
+        'background-size': 'cover',
+        'background-position': 'center'
+    }">
+        <img [src]="player.imgUrl" [alt]="player.name">
+        <div class="player-info">
+            <div class="player-info-header">
+                <h2>{{ player.name }}</h2>
+                <p>{{'#' + player.jersey}}</p>
+            </div>
+            <div class="player-info-body">
+                <p>{{player.position}}</p>
+                <p>B/T: {{ player.personalInfo.bt }}</p>
+                <p>{{ player.personalInfo.height }} /</p>
+                <p>{{ player.personalInfo.weight }}</p>
+                <p>{{'Age: ' + player.age }}</p>
+            </div>
+        </div>
+        <button *ngIf="player.personalInfo.social?.facebook" (click)="goToFacebook()">Follow</button>
+    </div>
+
+    <div class="info">
+        <div class="info-container">
+            <h5>{{player.name}} </h5>
+            <p><b>Bio:</b> {{player.personalInfo.bio}}</p>
+            <div class="info-800">
+                <p><b>Age:</b> {{player.age}}</p>
+                <p><b>B/T:</b> {{player.personalInfo.bt}}</p>
+                <p><b>Height:</b> {{player.personalInfo.height}}</p>
+                <p><b>Weight:</b> {{player.personalInfo.weight}}</p>
+            </div>
+            <p><b>Born:</b> {{player.personalInfo.birthDate}} in {{player.personalInfo.residence}}</p>
+            <p><b>Debut:</b> {{player.personalInfo.birthDate}}</p>
+        </div>
+        <div class="info-table" >
+            <div class="stats__btn">
+                <a><button class="button__select"
+                    [class.active-btn]="selectedAction === 'batting'"
+                    (click)="changeAction('batting')"
+                    *ngIf="player.stats.batting"
+                    >Hitting
+                    </button>
+                </a>
+                <a><button class="button__select"
+                    [class.active-btn]="selectedAction === 'pitching'"
+                    (click)="changeAction('pitching')"
+                    *ngIf="player.stats.pitching"
+                    >Pitching
+                    </button>
+                </a>
+            </div>
+            <div *ngIf="selectedAction === 'pitching'">
+                <table *ngIf="player.stats.pitching">
+                    <thead>
+                        <th>Player</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>ERA</th>
+                    </thead>
+                    <tr>
+                        <td>{{player.name}} </td>
+                        <td>{{player.stats.pitching.wins}}</td>
+                        <td>{{player.stats.pitching.losses}}</td>
+                        <td>{{player.stats.pitching.ERA}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div *ngIf="selectedAction === 'batting'">
+                <table *ngIf="player.stats.batting">
+                    <thead>
+                        <th>Player</th>
+                        <th>G</th>
+                        <th>L</th>
+                        <th>HR</th>
+                    </thead>
+                    <tr>
+                        <td>{{player.name}}</td>
+                        <td>{{player.stats.batting.games}}</td>
+                        <td>{{player.stats.batting.atBats}}</td>
+                        <td>{{player.stats.batting.homeRuns}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsPlayer" *ngIf="player as loadedPlayer">
+        <news-player [player]="loadedPlayer"></news-player>
+    </div>
+
+</div>
+
+
+
+
+<ng-template #notFound>
+    <p>Jugador no encontrado.</p>
+</ng-template>

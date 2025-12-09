@@ -1,0 +1,113 @@
+<div class="">
+    <div class="roster__btn">
+        <a><button class="button__select"
+            [class.active-btn]="selectedSection === 'actives'"
+            (click)="changeSection('actives')">Actives</button>
+        </a>
+        <a><button class="button__select"
+            [class.active-btn]="selectedSection === 'managers'"
+            (click)="changeSection('managers')">Managers</button>
+        </a>
+
+        <p>Total players: {{item.length}} </p>
+    </div>
+
+    <div *ngIf="selectedSection === 'actives'" class="players-table">
+        <div class="table-header">
+            <span>Pitchers</span>
+            <span>B/T</span>
+            <span>Ht</span>
+            <span>Wt</span>
+            <span>DOB</span>
+        </div>
+        <div class="table-row" *ngFor="let item of pitchers">
+            <div class="cell photo">
+                <img [src]="item.imgUrl || fallbackImage" [alt]="item.name">
+            </div>
+            <div class="cell name">
+                <a [routerLink]="[item.id, item.name]">{{ item.name }}</a>
+            <span class="jersey">#{{ item.jersey }}</span>
+            </div>
+            <div class="cell">{{item.personalInfo.bt}}</div>
+            <div class="cell">{{ item.personalInfo.height }} Mts.</div>
+            <div class="cell">{{ item.personalInfo.weight }} Kg.</div>
+            <div class="cell">{{ item.personalInfo.birthDate }}</div>
+        </div>
+        <div class="table-header">
+            <span>Catchers</span>
+            <span>B/T</span>
+            <span>Ht</span>
+            <span>Wt</span>
+            <span>DOB</span>
+        </div>
+        <div class="table-row" *ngFor="let item of catchers">
+            <div class="cell photo">
+                <img [src]="item.imgUrl || fallbackImage" [alt]="item.name">
+            </div>
+            <div class="cell name">
+                <a [routerLink]="[item.id, item.name]">{{ item.name }}</a>
+            <span class="jersey">#{{ item.jersey }}</span>
+            </div>
+            <div class="cell">{{item.personalInfo.bt}}</div>
+            <div class="cell">{{ item.personalInfo.height }} Mts.</div>
+            <div class="cell">{{ item.personalInfo.weight }} Kg.</div>
+            <div class="cell">{{ item.personalInfo.birthDate }}</div>
+        </div>
+        <div class="table-header">
+            <span>Infielders</span>
+            <span>B/T</span>
+            <span>Ht</span>
+            <span>Wt</span>
+            <span>DOB</span>
+        </div>
+        <div class="table-row" *ngFor="let item of infielders">
+            <div class="cell photo">
+                <img [src]="item.imgUrl || fallbackImage" [alt]="item.name">
+            </div>
+            <div class="cell name">
+                <a [routerLink]="[item.id, item.name]">{{ item.name }}</a>
+            <span class="jersey">#{{ item.jersey }}</span>
+            </div>
+            <div class="cell">{{item.personalInfo.bt}}</div>
+            <div class="cell">{{ item.personalInfo.height }} Mts.</div>
+            <div class="cell">{{ item.personalInfo.weight }} Kg.</div>
+            <div class="cell">{{ item.personalInfo.birthDate }}</div>
+        </div>
+        <div class="table-header">
+            <span>Outfielders</span>
+            <span>B/T</span>
+            <span>Ht</span>
+            <span>Wt</span>
+            <span>DOB</span>
+        </div>
+        <div class="table-row" *ngFor="let item of outfielders">
+            <div class="cell photo">
+                <img [src]="item.imgUrl || fallbackImage" [alt]="item.name">
+            </div>
+            <div class="cell name">
+                <a [routerLink]="[item.id, item.name]">{{ item.name }}</a>
+            <span class="jersey">#{{ item.jersey }}</span>
+            </div>
+            <div class="cell">{{item.personalInfo.bt}}</div>
+            <div class="cell">{{ item.personalInfo.height }} Mts.</div>
+            <div class="cell">{{ item.personalInfo.weight }} Kg.</div>
+            <div class="cell">{{ item.personalInfo.birthDate }}</div>
+        </div>
+    </div>  
+    <div *ngIf="selectedSection === 'managers'" class="players-table">
+        <div class="table-header">
+            <span>Managers</span>
+            <span>Title</span>
+        </div>
+        <div class="table-row" *ngFor="let item of managers">
+            <div class="cell photo">
+                <img [src]="item.imgUrl || fallbackImage" [alt]="item.name">
+            </div>
+            <div class="cell name">
+                <a>{{ item.name }}</a>
+            <span class="jersey">#{{ item.jersey }}</span>
+            </div>
+            <div class="cell">{{item.position}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+
+<app-carousel class="carousel"></app-carousel>
+
+<h2>Main News</h2>
+
+<div class="container-article">
+    <article>
+        <section  class="news">
+            <div *ngFor="let item of data">
+                <video [src]="item.video" controls></video>
+                <h3>{{item.tittle}}</h3>
+                <p>{{item.news}}<small>{{item.date}}</small></p>
+                <hr>
+            </div>
+        </section>
+    </article>
+    <aside>
+        <section>
+            <div class="widget">
+                <h3>Headlines</h3>
+                <hr>
+                <ul>
+                    <li *ngFor="let item of headlines">
+                        <a [routerLink]="'/news'" >{{item.description}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="widget__results">
+                <h3>Games of the season</h3>
+                <hr>
+                <div class="carousel-container">
+                    <button (click)="previous()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="carousel-date">{{formattedDate}}</div>
+                    <button (click)="next()"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <hr>
+                <div id="result">
+                    <ng-container *ngIf="matchOfTheDay; else noDatos">
+                        <h5>{{ matchOfTheDay.status}}</h5>
+                        <div class="team" *ngFor="let team of matchOfTheDay.matches">
+                            <img [src]="team.logo" [alt]="team.name">
+                            <p>{{ team.name}}</p>
+                            <p>{{ team.points}}</p>
+                        </div>
+                    </ng-container>
+                    <ng-template #noDatos>
+                        <p class="template">There is no data for this date</p>
+                    </ng-template>
+                </div>
+            </div>  
+            <div>
+                <h3>Our social networks</h3>
+                <hr>
+                <div class="widget__social">
+                    <a class="widget__social__icon" href="https://www.facebook.com/people/Gigantes-De-San-Francisco-Panaba/100063890287335/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="widget__social__icon" href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a class="widget__social__icon" href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a class="widget__social__icon" href=""><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </section>
+    </aside>
+</div>

@@ -1,0 +1,37 @@
+
+<div class="container-fluid" *ngIf="player?.newsGallery?.length">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6" *ngFor="let item of player.newsGallery">
+            <div class="card">
+                <div class="card-header">
+                    <div class="header-title">{{ item.title }}</div>
+                    <div class="header-date">{{ item.date}}</div>
+                    <div class="header-info">Gran picheo de parte de este joven, llevandose el primerer juego</div>
+                </div>
+                <div class="card-body">
+                    <img [src]="item.imageUrl" [alt]="item.id">
+                </div>
+                <div class="card-footer">
+                    <div class="actions-wrapper">
+                        <div class="actions" role="toolbar" aria-label="Acciones de la publicación">
+                            <button class="action-btn" id="likeBtn" aria-pressed="false"><i class="fa-regular fa-thumbs-up"></i> Me gusta</button>
+                        </div>
+                    </div>
+
+                    <div class="reactions">
+                        <div class="left-reactions">
+                            <div class="likes" aria-hidden>
+                                <span class="dot dot-blue"></span>
+                            </div>
+                        <div class="meta-sub">128</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- En caso de que no haya noticias -->
+<div class="text-center mt-3" *ngIf="player?.newsGallery?.length === 0">
+    <p>No hay noticias disponibles para este jugador.</p>
+</div>
