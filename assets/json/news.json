@@ -1,0 +1,37 @@
+[
+    {
+    "id": 1,
+    "title": "Ramos puts SF ahead with a home run",
+    "img": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/2022/03/Baseball-Field-Player_1200x900_10.jpg",
+    "news": "Heliot Ramos hits a solo home run through the LF to give the Giants a 1-0 lead in the top of the 5th inning, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam atque, perferendis dolorem aliquam accusantium quae cum vitae dolores laudantium, eos voluptatem obcaecati earum exercitationem modi distinctio itaque vero similique alias.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam atque, perferendis dolorem aliquam accusantium quae cum vitae dolores laudantium, eos voluptatem obcaecati earum exercitationem modi distinctio itaque vero similique alias.",
+    "date": "14-05-2025 "
+    },
+    {
+    "id": 2,
+    "title": "Wilmer Flores drives in with a single",
+    "img": "https://www.collinsdictionary.com/images/full/baseball_557405302_1000.jpg",
+    "news":"Wilmer Flores impulsa la primera carrera del juego con un sencillo al jardín izquierdo en la parte alta de la 2da entrada",
+    "date": "14-05-2025" 
+    },
+    {
+    "id": 3,
+    "title": "Doval secures Giants victory",
+    "img": "https://static.wbsc.org/uploads/federations/0/cms/photos/9f3342ec-5656-4d07-6b6d-11d74bbafcf8.jpg",
+    "news":"Camilo Doval gets the save after sealing the Giants 6-3 victory.",
+    "date": "14-05-2025" 
+    },
+    {
+    "id": 4,
+    "title": "Doval secures Giants victory",
+    "img": "https://static.wbsc.org/uploads/federations/0/cms/photos/9f3342ec-5656-4d07-6b6d-11d74bbafcf8.jpg",
+    "news":"Camilo Doval gets the save after sealing the Giants 6-3 victory.",
+    "date": "12-08-2025" 
+    },
+    {
+    "id": 5,
+    "title": "Doval secures Giants victory",
+    "img": "https://static.wbsc.org/uploads/federations/0/cms/photos/9f3342ec-5656-4d07-6b6d-11d74bbafcf8.jpg",
+    "news":"Camilo Doval gets the save after sealing the Giants 6-3 victory.",
+    "date": "14-08-2025" 
+    }
+]
