@@ -1,0 +1,63 @@
+[
+    {
+        "date": "2025-05-20",
+        "status": "Finalizado",
+        "matches": [
+        {
+            "name": "Mariners",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/136.svg",
+            "points": 2
+        },
+        {
+            "name": "Giants",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/137.svg",
+            "points": 6
+        }]
+    },
+    {
+        "date": "2025-05-21",
+        "status": "En juego",
+        "matches": [
+        {
+            "name": "Dodgers",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/119.svg",
+            "points": 2
+        },
+        {
+            "name": "Giants",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/137.svg",
+            "points": 3
+        }]
+    },
+    {
+        "date": "2025-05-25",
+        "status": "Finalizado",
+        "matches": [
+        {
+            "name": "Gran Lucha",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/119.svg",
+            "points": 7
+        },
+        {
+            "name": "Gigantes",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/137.svg",
+            "points": 8
+        }]
+    },
+    {
+        "date": "2025-06-01",
+        "status": "Pendiente",
+        "matches": [
+        {
+            "name": "Gigantes",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/137.svg",
+            "points": 0
+        },
+        {
+            "name": "Gran Lucha",
+            "logo": "https://www.mlbstatic.com/team-logos/team-cap-on-light/119.svg",
+            "points": 0
+        }
+    ]
+    }
+]

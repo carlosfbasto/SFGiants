@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgiantsSF=self.webpackChunkgiantsSF||[]).push([[592],{1932:(u,r,n)=>{n.d(r,{s:()=>c});var s=n(8256),o=n(529);let c=(()=>{class t{constructor(e){this.http=e}get(e){return this.http.get(`assets/json/${e}.json`)}}return t.\u0275fac=function(e){return new(e||t)(s.LFG(o.eN))},t.\u0275prov=s.Yz7({token:t,factory:t.\u0275fac,providedIn:"root"}),t})()}}]);

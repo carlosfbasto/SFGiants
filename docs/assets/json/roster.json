@@ -1,0 +1,831 @@
+[
+    {
+        "id": 1,
+        "name": "Manuel Ciau",
+        "jersey": 5,
+        "age": 30,
+        "position": "3B",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.60",
+            "weight": 59,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1993-04-15",
+            "bio": "Tenetur ea velit similique.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Manuel Acosta",
+        "jersey": 9,
+        "age": 25,
+        "position": "1B",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.74",
+            "weight": 76,
+            "residence": "Panabá, Yucatán",
+            "birthDate": "2003-12-04",
+            "bio": "Natus et ipsam possimus.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "Honorio Acosta",
+        "jersey": 10,
+        "age": 24,
+        "position": "LF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.63",
+            "weight": 80,
+            "residence": "Panabá, Yucatán",
+            "birthDate": "1992-03-12",
+            "bio": "Cumque ipsa quaerat dolore iure.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 4,
+        "name": "Luis Basto",
+        "jersey": 11,
+        "age": 32,
+        "position": "LF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.90",
+            "weight": 57,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1990-10-04",
+            "bio": "Alias alias magni sed nam incidunt.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 5,
+        "name": "Angel Basto",
+        "imgUrl": "assets/img/roster/A.Basto/hongo.png",
+        "jersey": 4,
+        "age": 30,
+        "position": "C",
+        "role": "catcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.59",
+            "weight": 68,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1995-05-13",
+            "bio": "Facilis consectetur laborum in tempora.",
+            "photoUrl": "",
+            "social":{
+                    "facebook": "https://www.facebook.com/angelenrrique.bastobatun"
+                }
+        },
+        "newsGallery": [
+            {
+                "id": 1,
+                "title": "Hola mundo",
+                "imageUrl": "https://world-camps.org/wp-content/uploads/2022/06/IMG-Baseball-Boys-cover.jpg",
+                "date": "25/05/2024"
+                
+            },
+            {
+                "id": 2,
+                "title": "Hola mundo 2",
+                "imageUrl": "https://7d7ce4d2fd579ab1db8f-ff847b6fa91c3461c76d26fad16823fb.ssl.cf1.rackcdn.com/16111.jpg",
+                "date": "28/05/2024"
+                
+            },
+            {
+                "id": 3,
+                "title": "Hola mundo 3",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjh2fmSGyl32eFZanw-BpcXFDYj1KwN1fO4Q&s",
+                "date": "29/05/2024"
+                
+            }
+        ],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 6,
+        "name": "Carlos Basto",
+        "jersey": 25,
+        "age": 24,
+        "position": "SP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.63",
+            "weight": 74,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "2000-09-25",
+            "bio": "Accusantium aspernatur culpa et recusandae facere accusamus eveniet.",
+            "photoUrl": "",
+            "social": {
+                "facebook": "https://www.facebook.com/carlos.batun.549"
+            }
+        },
+        "newsGallery": [
+            {
+                "id": 1,
+                "title": "Joyita a la defensiva",
+                "imageUrl": "https://world-camps.org/wp-content/uploads/2022/06/IMG-Baseball-Boys-cover.jpg",
+                "date": "25 de Noviembre"
+                
+            },
+            {
+                "id": 2,
+                "title": "Hola mundo 2",
+                "imageUrl": "https://7d7ce4d2fd579ab1db8f-ff847b6fa91c3461c76d26fad16823fb.ssl.cf1.rackcdn.com/16111.jpg",
+                "date": "28/05/2024"
+                
+            },
+            {
+                "id": 3,
+                "title": "Hola mundo 3",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjh2fmSGyl32eFZanw-BpcXFDYj1KwN1fO4Q&s",
+                "date": "29/05/2024"
+                
+            }
+        ],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            },
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 7,
+        "name": "Martin Batun",
+        "jersey": 27,
+        "age": 30,
+        "position": "SS",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.60",
+            "weight": 80,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "2000-01-05",
+            "bio": "Eius veniam quas.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 8,
+        "name": "Jorge Batun",
+        "jersey": 18,
+        "age": 21,
+        "position": "CF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.60",
+            "weight": 77,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1991-02-28",
+            "bio": "Voluptas voluptas explicabo debitis vitae.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 9,
+        "name": "Helbert Herrera",
+        "jersey": 1,
+        "age": 30,
+        "position": "2B",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.78",
+            "weight": 79,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1995-06-07",
+            "bio": "Ipsa quis exercitationem perspiciatis.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 10,
+        "name": "Jose Herrera",
+        "jersey": 15,
+        "age": 26,
+        "position": "SP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.57",
+            "weight": 60,
+            "residence": "San Francisco, Panaba, Yucatan",
+            "birthDate": "2025-05-28",
+            "bio": "Jugador con gran control en la lomita.",
+            "photoUrl": ""
+        },
+        "newsArticle": [
+            {
+                "id": 101,
+                "title": "string",
+                "imageUrl": "string",
+                "date": "string"
+            }
+        ],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            }
+        }
+    },
+    {
+        "id": 11,
+        "name": "Daniel Batun Jr",
+        "jersey": 100,
+        "age": 26,
+        "position": "CF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.72",
+            "weight": 94,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1990-01-28",
+            "bio": "Quasi magni odio tempora inventore cupiditate.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 12,
+        "name": "Porfirio Ochoa",
+        "jersey": 22,
+        "age": 23,
+        "position": "RP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.69",
+            "weight": 63,
+            "residence": "Playa del carmen, Qroo",
+            "birthDate": "1990-08-06",
+            "bio": "Sint illum numquam animi.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            }
+        }
+    },
+    {
+        "id": 13,
+        "name": "Francisco Batun",
+        "jersey": 13,
+        "age": 28,
+        "position": "SS",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.76",
+            "weight": 88,
+            "residence": "Playa del carmen, Qroo",
+            "birthDate": "2005-03-12",
+            "bio": "Soluta autem quas possimus iure.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 14,
+        "name": "Jesus Kuyoc",
+        "jersey": 58,
+        "age": 35,
+        "position": "LF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "L/L",
+            "height": "1.65",
+            "weight": 57,
+            "residence": "Panabá, Yucatán",
+            "birthDate": "2000-10-05",
+            "bio": "Ut sint fugit consequuntur.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            }
+        }
+    },
+    {
+        "id": 15,
+        "name": "Alejandro Basto",
+        "jersey": 19,
+        "age": 29,
+        "position": "RP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "L/L",
+            "height": "1.53",
+            "weight": 96,
+            "residence": "San Francisco, Panaba, Yucatan",
+            "birthDate": "1998-05-25",
+            "bio": "Quasi asperiores magni modi beatae.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 16,
+        "name": "Angel Montiel",
+        "jersey": 12,
+        "age": 23,
+        "position": "2B",
+        "role": "infielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.53",
+            "weight": 100,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "1995-06-08",
+            "bio": "Mollitia quidem cupiditate ipsam ab blanditiis neque corporis.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 17,
+        "name": "Yael Pool",
+        "jersey": 24,
+        "age": 20,
+        "position": "SP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.64",
+            "weight": 73,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "2005-03-03",
+            "bio": "Maxime quas explicabo porro nisi quis laboriosam.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            }
+        }
+    },
+    {
+        "id": 18,
+        "name": "Jafeth Cupul",
+        "jersey": 7,
+        "age": 15,
+        "position": "RF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.62",
+            "weight": 93,
+            "residence": "San Francisco, Panaba, Yucatan",
+            "birthDate": "1997-12-22",
+            "bio": "Eligendi omnis perspiciatis ex modi iste.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 19,
+        "name": "Diego Eroza",
+        "jersey": 44,
+        "age": 18,
+        "position": "RP",
+        "role": "pitcher",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.60",
+            "weight": 89,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "2002-03-29",
+            "bio": "Ratione quasi facilis.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "pitching": {
+                "wins": 3,
+                "losses": 2,
+                "ERA": 2.75,
+                "gamesPitched": 12,
+                "inningsPitched": 48.2,
+                "hits": 30,
+                "runs": 15,
+                "earnedRuns": 14,
+                "homeRuns": 5,
+                "walks": 10,
+                "strikeouts": 55,
+                "WHIP": 1.10
+            }
+        }
+    },
+    {
+        "id": 20,
+        "name": "Reyes Dzul",
+        "jersey": 1,
+        "age": 30,
+        "position": "RF",
+        "role": "outfielder",
+        "personalInfo": {
+            "bt": "R/R",
+            "height": "1.74",
+            "weight": 93,
+            "residence": "San Francisco, Panabá, Yucatán",
+            "birthDate": "2005-02-26",
+            "bio": "Et nisi quisquam a distinctio numquam necessitatibus tempora.",
+            "photoUrl": ""
+        },
+        "newsArticle": [],
+        "stats": {
+            "batting": {
+                "games": 25,
+                "atBats": 90,
+                "runs": 20,
+                "hits": 32,
+                "doubles": 8,
+                "triples": 1,
+                "homeRuns": 5,
+                "RBIs": 22,
+                "walks": 10,
+                "strikeouts": 18,
+                "stolenBases": 4,
+                "average": 0.356,
+                "OBP": 0.410,
+                "SLG": 0.578,
+                "OPS": 0.988,
+                "totalBases": 52
+            }
+        }
+    },
+    {
+        "id": 21,
+        "name": "Jose Gil",
+        "title":"Couch",
+        "jersey": 2,
+        "position": "Couch",
+        "role": "manager"
+    },
+    {
+        "id": 22,
+        "name": "Javier Basto",
+        "title":"Manager",
+        "jersey": 3,
+        "age": 28,
+        "position": "Manager",
+        "role": "manager"
+    }
+]
